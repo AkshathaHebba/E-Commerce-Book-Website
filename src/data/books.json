@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": "123",
+      "name": "Web Development in practice",
+      "ISBN" : "ABC123",
+      "Category" : "Education",
+      "Suggested Books": [
+        "Complete Web Development",
+        "Mastery Web Development"
+      ],
+      "Copies Sold": "12",
+      "Amount": "120",
+      "Image": "Web-dev.jpeg",
+      "published Date": "2021-08-19T23:15:30.000Z"
+    },
+    {
+      "id": "124",
+      "name": "Atomic Habits",
+      "ISBN" : "ABC124",
+      "Category" : "Motivational",
+      "Suggested Books": [
+        "How to become rich",
+        "The art of not giving a fu*k"
+      ],
+      "Amount": "220",
+      "Image" : "atomic-habits.jpeg",
+      "Copies Sold": "13",
+      "published Date": "2020-08-19T23:15:30.000Z"
+    },
+    {
+      "id": "125",
+      "name": "Harry Potter",
+      "ISBN" : "ABC125",
+      "Category" : "Fictional",
+      "Suggested Books": [
+        "Twilight",
+        "Fire and Ice"
+      ],
+      "Amount": "320",
+      "Image": "harry-potter.png",
+      "Copies Sold": "14",
+      "published Date": "2020-09-19T23:15:30.000Z"
+    }
+  ]
+}
