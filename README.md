@@ -25,4 +25,4 @@ Once the application is running, users can visit the provided URL and browse thr
 
 <img width="1247" alt="Screen Shot 2023-05-23 at 12 38 48 AM" src="https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/3f387c5a-4674-408f-a92a-0c8d50e5b81b">
 
-<img width="500" alt="Screen Shot 2023-05-23 at 12 39 39 AM" src="https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/2925f33a-455a-471a-9cd4-feda147e3a2a">
+<img width="1275" alt="Screen Shot 2023-05-23 at 12 46 02 AM" src="https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/0f86b145-9125-4c9e-9997-64f2de1b1ef3">
