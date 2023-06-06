@@ -54,7 +54,7 @@ export default function CheckoutForm(){
             elements,
             confirmParams: {
                 // Make sure to change this to your payment completion page
-                return_url: "http://localhost:5000",
+                return_url: "http://localhost:3000"
             },
         });
         if (error.type === "card_error" || error.type === "validation_error") {

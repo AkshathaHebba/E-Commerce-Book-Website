@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import {Elements} from "@stripe/react-stripe-js";
 import CheckoutForm from "../CheckOut/CheckoutForm";
 import OrderContext from '../../context/OrderContext'
-const stripePromise = loadStripe(process.env.STRIPE_PUBLISH_KEY);
+const stripePromise = loadStripe("publish_key");
 function Payments(){
     const [open,setOpen] = useState(false)
     const [clientSecret, setClientSecret] = useState("");
@@ -12,28 +12,28 @@ function Payments(){
     const  [total,setTotal] = useState(0);
     const [orderSummary,setOrderSummary] = useState([])
 
-     function cartInformation(){
-         //Computes Total
+     function calculateTotal(){
          const totalAmount = ordersList.reduce((acc,curr) => {
              return acc + (curr['Amount'] * curr['quantity']);
          },0)
-         setTotal(totalAmount)
-         //Order Summary
-          setOrderSummary(ordersList.map((order) => [order.name,order.quantity]))
+         return totalAmount
      }
-
     const handleClose = () => setOpen(false);
-
     const handleShow = () => {
         setOpen(true)
-        cartInformation();
+        const totalCalculated = calculateTotal()
+        setTotal(totalCalculated)
+        setOrderSummary(ordersList.map((order) => [order.name,order.quantity]))
         // Create PaymentIntent as soon as the page loads
         fetch("http://localhost:5000/create-payment-intent", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ items: [{
-                    id: "xl-tshirt"
-                }] }),
+            body: JSON.stringify({
+                items: [{
+                    total: totalCalculated,
+                    currency: "usd"
+                }]
+            }),
         })
             .then((res) => res.json())
             .then((data) => setClientSecret(data.clientSecret));
