@@ -1,6 +1,6 @@
 # Ecommerce Book Publication Application
 
-This repository contains the source code for an Ecommerce Book Publication Application. The application is built using a combination of front-end technologies such as React and Bootstrap, and a server-side Node.js Express application with APIs following the REST architecture.
+This repository contains the source code for an Ecommerce Book Publication Application. The application is built using a combination of front-end technologies such as REACT and Bootstrap for styling, and a server-side Node.js Express application with APIs following the REST architecture.
 
 ## Features
 - User-friendly and responsive front-end interface built with React and Bootstrap, ensuring a seamless experience across different devices and screen sizes.
