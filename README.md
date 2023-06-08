@@ -22,7 +22,11 @@ To run the Ecommerce Book Publication Application locally, follow these steps:
 ## Usage
 Once the application is running, users can visit the provided URL and browse through the available books. They can add books to their cart, proceed to the checkout page, and make secure payments using Stripe integration. The application provides a smooth and intuitive experience for users to purchase books effortlessly.
 
+![Screen Shot 2023-06-07 at 5 31 39 PM](https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/fd83ef7f-9eaa-490a-a9cf-9bb4b000581a)
+![Screen Shot 2023-06-07 at 5 34 19 PM](https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/d9b8a7fb-662d-450b-abf7-a7880825bed3)
 
-<img width="1247" alt="Screen Shot 2023-05-23 at 12 38 48 AM" src="https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/3f387c5a-4674-408f-a92a-0c8d50e5b81b">
 
-<img width="1275" alt="Screen Shot 2023-05-23 at 12 46 02 AM" src="https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/0f86b145-9125-4c9e-9997-64f2de1b1ef3">
+<!-- <img width="1247" alt="Screen Shot 2023-05-23 at 12 38 48 AM" src="https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/3f387c5a-4674-408f-a92a-0c8d50e5b81b"> -->
+
+<!-- <img width="1275" alt="Screen Shot 2023-05-23 at 12 46 02 AM" src="https://github.com/AkshathaHebba/stripeIntegration/assets/25522884/0f86b145-9125-4c9e-9997-64f2de1b1ef3">
+ -->
