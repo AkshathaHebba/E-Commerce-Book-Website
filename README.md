@@ -7,6 +7,7 @@ This repository contains the source code for an Ecommerce Book Publication Appli
 - RESTful APIs provided by the Node.js Express application for handling various functionalities of the Ecommerce Book Publication Application.
 - Integration with Stripe for secure and convenient payment processing, allowing users to purchase books with ease.
 - Bundling of the application code using Webpack, optimizing performance and ensuring efficient delivery to end users.
+- Back end built with SQL Postgress.
 
 ## Installation
 To run the Ecommerce Book Publication Application locally, follow these steps:
